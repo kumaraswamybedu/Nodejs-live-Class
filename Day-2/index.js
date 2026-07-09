@@ -1,3 +1,5 @@
+const sun = require('./index2');
+
 //console.log("from index.js file");
 
 //Global Objects
@@ -14,6 +16,3 @@ console.log(__filename,'filename'); //print current file name (path to the file)
 console.log(Buffer.from('hello'));//print the buffer of the string
 
 console.log(Buffer.from('hello').toString(),'stringified buffer'); //print the string from the buffer
-
-
-//18:00 sec 
